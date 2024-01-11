@@ -22,10 +22,10 @@
  - Include all required file for each code.
 
 **5. Example Controller:**
- - Create a new controller in `app/Http/Controllers` for "example" functionality.
+ - Create a new controller in `app/Http/Controllers/example.php` to test the functionality.
 
 **6. Route Configuration:**
- - Define a route in `routes/web.php` to map `/` to the `index` method of the example controller.
+ - Define a route in `routes/web.php` to map `/` to the `index` method of the `example` controller.
 
 **7. Bug Fixing:**
  - Address any bugs or compatibility issues.

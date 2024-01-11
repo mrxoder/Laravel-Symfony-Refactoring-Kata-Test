@@ -1,13 +1,19 @@
 <?php
 
+namespace TemplateManager\Context;
+
 require_once __DIR__ . '/../Helper/SingletonTrait.php';
 require_once __DIR__ . '/../Entity/Site.php';
 require_once __DIR__ . '/../Entity/Quote.php';
 require_once __DIR__ . '/../Entity/User.php';
 
+use \TemplateManager\Entity\Site;
+use \TemplateManager\Entity\Quote;
+use TemplateManager\Entity\User;
+
 class ApplicationContext
 {
-    use TemplateManager\Helper\SingletonTrait;
+    use \TemplateManager\Helper\SingletonTrait;
 
     /**
      * @var Site

@@ -24,13 +24,9 @@ class example extends Controller
         'Your delivery to [quote:destination_name]',
         "
         Hi [user:first_name],
-
         Thanks for contacting us to deliver to [quote:destination_name].
-
         Regards,
-
-        SAYNA team
-        ");
+        SAYNA team");
         
         $templateManager = new TemplateManager();
         

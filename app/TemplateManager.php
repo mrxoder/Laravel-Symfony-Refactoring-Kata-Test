@@ -12,6 +12,11 @@ require_once __DIR__ . '/TemplateManager/Repository/SiteRepository.php';
 require_once __DIR__ . '/TemplateManager/Repository/DestinationRepository.php';
 
 use TemplateManager\Entity\Template;
+use TemplateManager\Entity\Quote;
+use TemplateManager\Context\ApplicationContext;
+use TemplateManager\Repository\QuoteRepository;
+use TemplateManager\Repository\SiteRepository;
+use TemplateManager\Repository\DestinationRepository;
 
 class TemplateManager
 {

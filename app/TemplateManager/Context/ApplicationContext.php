@@ -7,7 +7,7 @@ require_once __DIR__ . '/../Entity/User.php';
 
 class ApplicationContext
 {
-    use SingletonTrait;
+    use TemplateManager\Helper\SingletonTrait;
 
     /**
      * @var Site

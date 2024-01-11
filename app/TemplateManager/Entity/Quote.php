@@ -1,5 +1,7 @@
 <?php
 
+namespace TemplateManager\Entity;
+
 class Quote
 {
     public $id;

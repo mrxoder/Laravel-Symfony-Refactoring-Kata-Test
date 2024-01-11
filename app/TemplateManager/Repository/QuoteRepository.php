@@ -7,7 +7,7 @@ require_once __DIR__ . '/Repository.php';
 
 class QuoteRepository implements Repository
 {
-    use SingletonTrait;
+    use TemplateManager\Helper\SingletonTrait;
 
     /**
      * @param int $id

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\TemplateManager\Repository;
+
 
 require_once __DIR__ . '/Repository.php';
 require_once __DIR__ . '/../Helper/SingletonTrait.php';
@@ -10,7 +10,7 @@ use Faker\Factory;
 
 class SiteRepository implements Repository
 {
-    use SingletonTrait;
+    use TemplateManager\Helper\SingletonTrait;
 
     private $url;
 

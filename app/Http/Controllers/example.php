@@ -3,9 +3,15 @@
 namespace App\Http\Controllers;
 
 require_once __DIR__."/../../TemplateManager.php";
+require_once __DIR__ . '/../../TemplateManager/Entity/Quote.php';
+require_once __DIR__ . '/../../TemplateManager/Entity/Template.php';
+//require_once __DIR__ . '/../../TemplateManager/Entity/User.php';
 
 use Illuminate\Http\Request;
 use Faker\Factory;
+use TemplateManager\Entity\Template;
+use TemplateManager\Entity\Quote;
+use App\TemplateManager;
 
 
 class example extends Controller

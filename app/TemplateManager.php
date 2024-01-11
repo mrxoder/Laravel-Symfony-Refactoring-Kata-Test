@@ -1,14 +1,17 @@
 <?php
 
-require_once __DIR__ . '/../vendor/autoload.php';
-require_once __DIR__ . '/Entity/Quote.php';
-require_once __DIR__ . '/Entity/Template.php';
-require_once __DIR__ . '/Entity/User.php';
-require_once __DIR__ . '/Context/ApplicationContext.php';
-require_once __DIR__ . '/Repository/QuoteRepository.php';
-require_once __DIR__ . '/Repository/SiteRepository.php';
-require_once __DIR__ . '/Repository/DestinationRepository.php';
+namespace App;
 
+require_once __DIR__ . '/../vendor/autoload.php';
+require_once __DIR__ . '/TemplateManager/Entity/Quote.php';
+require_once __DIR__ . '/TemplateManager/Entity/Template.php';
+require_once __DIR__ . '/TemplateManager/Entity/User.php';
+require_once __DIR__ . '/TemplateManager/Context/ApplicationContext.php';
+require_once __DIR__ . '/TemplateManager/Repository/QuoteRepository.php';
+require_once __DIR__ . '/TemplateManager/Repository/SiteRepository.php';
+require_once __DIR__ . '/TemplateManager/Repository/DestinationRepository.php';
+
+use TemplateManager\Entity\Template;
 
 class TemplateManager
 {

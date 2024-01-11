@@ -8,7 +8,7 @@ use Faker\Factory;
 
 class DestinationRepository implements Repository
 {
-    use SingletonTrait;
+    use TemplateManager\Helper\SingletonTrait;
     /**
      * @param int $id
      *
